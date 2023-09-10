@@ -1,0 +1,12 @@
+server:
+    port: 8080
+    servlet:
+        context-path: /reserva-carros
+
+spring:
+  datasource:
+    password: 123456
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/reserva_carros
+  jpa:
+    show-sql: true
